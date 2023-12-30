@@ -18,7 +18,7 @@ function displayHighScore() {
 
 function makeBubble() {
   let clutter = "";
-  for (let i = 0; i <= 130; i++) {
+  for (let i = 0; i <= 64; i++) {
     let rn = Math.floor(Math.random() * 10);
     let colorIndex = Math.floor(Math.random() * 3);
     clutter += `<div class="bubble ${randomColor[colorIndex]}">${rn}</div>`;
@@ -72,6 +72,11 @@ document.querySelector("#pbtm").addEventListener('click', function (dets) {
   }
 });
 
+let restart = document.querySelector('.restartbtn')
+
+restart.addEventListener('click', function () {
+  location.reload()
+})
 
 // Call displayHighScore to show the initial high score
 displayHighScore();

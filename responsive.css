@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @media only screen and (max-width:430px) {
 
+  #pbtm{
+    height:69vh;
+  }
+
   .bubble{
     height: 35px;
     width: 35px;
@@ -33,6 +37,17 @@
   }
 
 
+  }
 
 
+  @media only screen and (max-width:430px){
+
+    .bubble{
+      height: 30px;
+      width: 30px;
+    }
+
+    #pbtm{
+      height:85vh;
+    }
   }
