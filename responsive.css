@@ -1,0 +1,29 @@
+@media only screen and (max-width:430px) {
+  .bubble{
+    height: 30px;
+    width: 30px;
+  }
+
+  .ptop{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box{
+    margin: 5px 0px;
+  }
+
+
+
+
+
+
+  }
