@@ -72,9 +72,9 @@ document.querySelector("#pbtm").addEventListener('click', function (dets) {
   }
 });
 
+
 // Call displayHighScore to show the initial high score
 displayHighScore();
-
 runTimer();
 makeBubble();
 newHit();
