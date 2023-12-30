@@ -7,7 +7,7 @@
 }
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: rgba(143, 223, 143, 0.594);
 }
 
@@ -32,7 +32,7 @@ body{
   width: 80vw;
   border-radius: 10px;
   margin-bottom: 50px;
-
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .ptop{
@@ -116,4 +116,8 @@ body{
 }
 .blue{
   background-color: #3AA63C;
+}
+
+footer{
+  text-align: center;
 }
