@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @media only screen and (max-width:430px) {
+
   .bubble{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
   }
 
   .ptop{
@@ -17,12 +19,17 @@
     justify-content: center;
     align-items: center;
   }
+
+  #HscoreElem{
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
   .box{
     margin: 5px 0px;
   }
 
   #pbtm{
-    padding:10px 0px;
+    padding:0px 0px;
   }
 
 

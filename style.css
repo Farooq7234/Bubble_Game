@@ -1,31 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow: hidden;
+  background-color: rgba(143, 223, 143, 0.594);
 }
 
 .main{
+  margin-top: 10px;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(143, 223, 143, 0.594);
+  
 }
 
 .high-score{
   display: flex;
-  margin-bottom:10px ;
 }
 
 .panel{
   overflow: hidden;
   background-color: #fff;
-  height: 80vh;
   width: 80vw;
   border-radius: 10px;
+  margin-bottom: 50px;
+
 }
 
 .ptop{
@@ -41,7 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 
 .elem h3{
@@ -53,7 +60,7 @@
   color: black;
 }
 #Hscorebox{
-  padding: 5px 10px;
+  padding: 3px 10px;
   font-size: 17px;
   margin-bottom:5px ;
 }
