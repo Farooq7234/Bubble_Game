@@ -1,1 +1,1 @@
-Bubble game made using JavaScript for Practice of JavaScript
+## Bubble game made using JavaScript for Practice of JavaScript
